@@ -65,11 +65,11 @@ class App extends Component {
 
     return (
       <div className="App">
-        <div className="MainContent">
+        <div>
               {
                 this.state.inventario &&
                 this.state.inventario.map((object) => {
-                  <div className="postInfo">
+                  <div>
                     <div>{object.ID}</div>
                     <div>{object.ID_categoria}</div>
                     <div>{object.ID_marca}</div>
